@@ -2,6 +2,7 @@ import {useState} from "react";
 import "./Works.scss"
 export default function Works() {
     const [currentSlide, setCurrentSlide] = useState(0);
+
     const data = [
        
         {
@@ -30,10 +31,14 @@ export default function Works() {
             " https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260 "
         },
      ];
-
+     
      const handleClick = (way)=>{
-         way === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide-1 : 2)
-     }
+      way === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide-1 : 2) 
+      : setCurrentSlide(currentSlide<data.length -1 ? currentSlide +1 : 0)
+  };
+
+
+
 
     return (
         <div className="works" id="works">
@@ -64,7 +69,7 @@ export default function Works() {
                  ))}
             </div>
             <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")} />
-            <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")} />
+            <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick()} />
         </div>
     )
 }

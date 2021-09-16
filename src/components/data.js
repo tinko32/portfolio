@@ -3,20 +3,20 @@ export const featuredPortfolio = [
         id: 1,
         title: "Social Media app",
         img: 
-        " https://parentinfo.org/sites/default/files/styles/main_article_image/public/Social_Media_image_New_IG_Logo.png?itok=jDLmx9B5 "
+        " https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "
     },
      {
         id: 2,
         title: "Crypto",
         img: 
-        "https://www.google.com/search?q=Crypto&tbm=isch&hl=mk&tbs=isz:m&sa=X&ved=0CAMQpwVqFwoTCODQqMX2-fICFQAAAAAdAAAAABAI&biw=1903&bih=937#imgrc=_Fch7MSU3anFhM"
+        "https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     },
 
     {
         id: 3,
         title: "Networking",
         img: 
-        " https://img.freepik.com/free-vector/crypto-currency-mining-comcept-block-chain-technolofy-token-system-networking_39422-504.jpg?size=626&ext=jpg "
+        " https://images.pexels.com/photos/5980863/pexels-photo-5980863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     },
 
 
@@ -27,20 +27,20 @@ export const webPortfolio = [
         id: 1,
         title: "Web Social Media app",
         img: 
-        " https://parentinfo.org/sites/default/files/styles/main_article_image/public/Social_Media_image_New_IG_Logo.png?itok=jDLmx9B5 "
+        " https://images.pexels.com/photos/5980879/pexels-photo-5980879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     },
      {
         id: 2,
         title: "Web Crypto",
         img: 
-        " https://parentinfo.org/sites/default/files/styles/main_article_image/public/Social_Media_image_New_IG_Logo.png?itok=jDLmx9B5 "
+        " https://images.pexels.com/photos/5980866/pexels-photo-5980866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     },
 
     {
         id: 3,
         title: "Web Networking",
         img: 
-        " https://parentinfo.org/sites/default/files/styles/main_article_image/public/Social_Media_image_New_IG_Logo.png?itok=jDLmx9B5 "
+        " https://images.pexels.com/photos/7567591/pexels-photo-7567591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "
     },
 
 
@@ -64,7 +64,7 @@ export const MobilePortfolio = [
         id: 3,
         title: "Mobile Networking",
         img: 
-        " https://www.google.com/search?q=crypto%20mobile&tbm=isch&tbs=isz:m&hl=mk&sa=X&ved=0CAMQpwVqFwoTCOixuPz3-fICFQAAAAAdAAAAABAI&biw=1903&bih=937#imgrc=3CY9rr0VjVrQxM "
+        "https://images.pexels.com/photos/3222685/pexels-photo-3222685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 "
     },
 
 
@@ -75,21 +75,43 @@ export const contentPortfolio = [
         id: 1,
         title: "Social Media app",
         img: 
-        " https://www.google.com/search?q=crypto+content&tbm=isch&ved=2ahUKEwjL0c3i9vnyAhUB5IUKHYGUAakQ2-cCegQIABAA&oq=crypto+content&gs_lcp=CgNpbWcQARgAMgQIABATMgQIABATOgoIIxDvAxDqAhAnOgcIIxDvAxAnOgQIABADOgQIABAeOgYIABAeEBM6CAgAEAgQHhATUNnxCFiQiQ9gyKgPaARwAHgAgAGDAYgB_AmSAQQxMS4zmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=ezQ-YYuoJoHIlwSBqYbICg&bih=937&biw=1903&hl=mk#imgrc=0iRVzM3zRpoNgM "
+        " https://images.pexels.com/photos/3222685/pexels-photo-3222685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 "
     },
      {
         id: 2,
         title: "Crypto content",
         img: 
-        " https://parentinfo.org/sites/default/files/styles/main_article_image/public/Social_Media_image_New_IG_Logo.png?itok=jDLmx9B5 "
+        " https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "
     },
 
     {
         id: 3,
         title: "Content Networking",
         img: 
-        " https://parentinfo.org/sites/default/files/styles/main_article_image/public/Social_Media_image_New_IG_Logo.png?itok=jDLmx9B5 "
+        " https://images.pexels.com/photos/6964947/pexels-photo-6964947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "
     },
 
 
+]
+
+export const designPortfolio = [
+    {
+        id: 1,
+        title: "Social Media app",
+        img: 
+        "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "
+    },
+     {
+        id: 2,
+        title: "Design",
+        img: 
+        " https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "
+    },
+
+    {
+        id: 3,
+        title: "Network",
+        img: 
+        " https://images.pexels.com/photos/2566581/pexels-photo-2566581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "
+    },
 ]
